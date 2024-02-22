@@ -31,7 +31,7 @@ int main() {
             return 1;
     }
 
-    printf("La respuesta es: %d\n",num1,operador, num2, resultado);
+    printf("La respuesta es: %d\n", resultado);
 
     return 0;
 
