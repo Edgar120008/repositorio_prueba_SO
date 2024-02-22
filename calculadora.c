@@ -6,6 +6,7 @@ int main() {
     int num1, num2, resultado;
     char operador;
 
+    printf("| CALCULADORA |\n");
     printf("Digite el primer número: ");
     scanf("%d", &num1);
     printf("Digite el operador: ");
