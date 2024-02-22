@@ -6,12 +6,12 @@ int main() {
     int num1, num2, resultado;
     char operador;
 
-    printf("Digite o primeiro número: ");
+    printf("Digite el primer número: ");
     scanf("%d", &num1);
-    printf("Digite o operador: ");
-    scanf(" %c", &operador);
-    printf("Digite o segundo número: ");
+    printf("Digite el segundo numero: ");
     scanf("%d", &num2);
+    printf("Digite la operacion que realizara: ");
+    scanf(" %c", &operador);
 
     switch (operador) {
         case '+':
