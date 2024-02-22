@@ -3,18 +3,16 @@
 #include <math.h>
 
 int main() {
-    int num1, num2, resultado;
-    char operador;
+    int num1, num2, resultado
 
     printf("Pulsa el primer numero: ");
     scanf("%d", &num1);
-    printf("Selecciona una operacion a realizar: ");
+    printf("Selecceracion a realizar: ");
     scanf(" %c", &operador);
     printf("Pulsa tu segundo numero: ");
-    scanf("%d", &num2);
-
+    
     switch (operador) {
-        case '+':
+        case 
             resultado = num1 + num2;
             break;
         case '-':
@@ -24,7 +22,6 @@ int main() {
             resultado = num1 * num2;
             break;
         case '/':
-            resultado = num1 / num2;
             break;
         default:
             printf("Operador inválido\n");
