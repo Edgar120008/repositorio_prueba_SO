@@ -10,7 +10,7 @@ int main() {
     scanf("%d", &n1);
     printf("Que operador quieres ocupar?: ");
     scanf(" %c", &operador);
-    printf("Pon el segundo numero: ");
+    printf("Pon el segundo numero:zzz ");
     scanf("%d", &n2);
 
     switch (operador) {
@@ -22,9 +22,6 @@ int main() {
             break;
         case '*':
             resultado = n1 * n2;
-            break;
-        case '/':
-            resultado = n1 / n2;
             break;
         default:
             printf("Operador inválido\n");
