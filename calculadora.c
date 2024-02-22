@@ -6,11 +6,11 @@ int main() {
     int num1, num2, resultado;
     char operador;
 
-    printf("Digite o primeiro número: ");
+    printf("Pulsa el primer numero ");
     scanf("%d", &num1);
-    printf("Digite o operador: ");
+    printf("Selecciona una operacion a realizar ");
     scanf(" %c", &operador);
-    printf("Digite o segundo número: ");
+    printf("Pulsa tu segundo numero ");
     scanf("%d", &num2);
 
     switch (operador) {
@@ -31,7 +31,7 @@ int main() {
             return 1;
     }
 
-    printf("Resultado: %d\n", resultado);
+    printf("La respuesta es: %d\n",num1,operador, num2, resultado);
 
     return 0;
 
