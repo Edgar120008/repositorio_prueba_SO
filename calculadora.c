@@ -33,48 +33,39 @@ int main() {
     printf("Pulsa tu segundo numero: ");
     
     switch (operador) {
-<<<<<<< HEAD
         case 
             resultado = num1 + num2;
-=======
         case '+':
             resultado = n1 + n2;
->>>>>>> emiliano
             break;
         case '-':
             resultado = n1 - n2;
             break;
         case '*':
-<<<<<<< HEAD
             resultado = num1 * num2;
             break;
         case '/':
-=======
             resultado = n1 * n2;
->>>>>>> emiliano
             break;
         default:
             printf("Operador inválido\n");
             return 1;
     }
 
-<<<<<<< HEAD
     printf("La respuesta es: %d\n", resultado);
 
     return 0;
 
     // esta es tu rama ulises
-=======
+
     printf("El resultado de la operacion: %d %c %d es: %d\n",n1,operador,n2,resultado);
 
     return 0;
 
     //este se tu rama Emiliano
->>>>>>> emiliano
-}
-=======
+
+
     
     // esta es tu rama vanesa
 }
 
->>>>>>> vanesa
