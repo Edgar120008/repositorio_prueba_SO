@@ -4,6 +4,7 @@
 
 int main() {
 <<<<<<< HEAD
+<<<<<<< HEAD
     int num1, num2, resultado
 
     printf("VANESA ");
@@ -71,3 +72,9 @@ int main() {
     //este se tu rama Emiliano
 >>>>>>> emiliano
 }
+=======
+    
+    // esta es tu rama vanesa
+}
+
+>>>>>>> vanesa
