@@ -6,11 +6,11 @@ int main() {
     int num1, num2, resultado;
     char operador;
 
-    printf("Digite o primeiro número: ");
+    printf("Digite el primer número: ");
     scanf("%d", &num1);
-    printf("Digite o operador: ");
+    printf("Digite el operador: ");
     scanf(" %c", &operador);
-    printf("Digite o segundo número: ");
+    printf("Digite el segundo número: ");
     scanf("%d", &num2);
 
     switch (operador) {
@@ -27,12 +27,13 @@ int main() {
             resultado = num1 / num2;
             break;
         default:
-            printf("Operador inválido\n");
+            printf("Operador inválido...\n");
             return 1;
     }
 
-    printf("Resultado: %d\n", resultado);
+    printf("El Resultado es: %d\n", resultado);
 
     return 0;
     // esta es tu rama vanesa
 }
+
