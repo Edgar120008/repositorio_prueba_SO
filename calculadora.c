@@ -3,8 +3,7 @@
 #include <math.h>
 
 int main() {
-    int num1, num2, resultado;
-    char operador;
+    int num1, num2, resultado
 
     printf("VANESA ");
     printf("Digite el primer número: ");
@@ -14,8 +13,14 @@ int main() {
     printf("Digite la operacion que realizara: ");
     scanf(" %c", &operador);
 
+    printf("Pulsa el primer numero: ");
+    scanf("%d", &num1);
+    printf("Selecceracion a realizar: ");
+    scanf(" %c", &operador);
+    printf("Pulsa tu segundo numero: ");
+    
     switch (operador) {
-        case '+':
+        case 
             resultado = num1 + num2;
             break;
         case '-':
@@ -25,14 +30,15 @@ int main() {
             resultado = num1 * num2;
             break;
         case '/':
-            resultado = num1 / num2;
             break;
         default:
             printf("Operador inválido\n");
             return 1;
     }
 
-    printf("Resultado: %d\n", resultado);
+    printf("La respuesta es: %d\n", resultado);
 
     return 0;
+
+    // esta es tu rama ulises
 }
